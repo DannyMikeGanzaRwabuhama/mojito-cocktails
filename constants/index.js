@@ -73,16 +73,16 @@ const mockTailLists = [
 
 const profileLists = [
     {
-        imgPath: "/images/profile1.png",
+        imgPath: "/assets/images/profile1.png",
     },
     {
-        imgPath: "/images/profile2.png",
+        imgPath: "/assets/images/profile2.png",
     },
     {
-        imgPath: "/images/profile3.png",
+        imgPath: "/assets/images/profile3.png",
     },
     {
-        imgPath: "/images/profile4.png",
+        imgPath: "/assets/images/profile4.png",
     },
 ];
 
@@ -119,26 +119,26 @@ const openingHours = [
 const socials = [
     {
         name: "Instagram",
-        icon: "/images/insta.png",
+        icon: "/assets/images/insta.png",
         url: "#",
     },
     {
         name: "X (Twitter)",
-        icon: "/images/x.png",
+        icon: "/assets/images/x.png",
         url: "#",
     },
     {
         name: "Facebook",
-        icon: "/images/fb.png",
+        icon: "/assets/images/fb.png",
         url: "#",
     },
 ];
 
-const sliderLists = [
+const allCocktails = [
     {
         id: 1,
         name: "Classic Mojito",
-        image: "/images/drink1.png",
+        image: "/assets/images/drink1.png",
         title: "Simple Ingredients, Bold Flavor",
         description:
             "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
@@ -146,7 +146,7 @@ const sliderLists = [
     {
         id: 2,
         name: "Raspberry Mojito",
-        image: "/images/drink2.png",
+        image: "/assets/images/drink2.png",
         title: "A Zesty Classic That Never Fails",
         description:
             "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
@@ -154,7 +154,7 @@ const sliderLists = [
     {
         id: 3,
         name: "Violet Breeze",
-        image: "/images/drink3.png",
+        image: "/assets/images/drink3.png",
         title: "Simple Ingredients, Bold Flavor",
         description:
             "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
@@ -162,7 +162,7 @@ const sliderLists = [
     {
         id: 4,
         name: "Curacao Mojito",
-        image: "/images/drink4.png",
+        image: "/assets/images/drink4.png",
         title: "Crafted With Care, Poured With Love",
         description:
             "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
@@ -179,5 +179,5 @@ export {
     openingHours,
     storeInfo,
     socials,
-    sliderLists,
+    allCocktails,
 };
